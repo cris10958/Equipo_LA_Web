@@ -1,6 +1,9 @@
-# Equipo_LA_Web
+## Focus Fit
+Final UX project web version
 
-versión de node utilizada: 14.20.1
-instalar el cli de angular: npm install -g @angular/cli
-instalar dependencias: npm install
-ejecutar el servidor: ng serve
+## Getting Started
+
+This project was created with the node version 14.20.1
+
+1. Install dependencies whit the commat: npm install 
+2. Run the server using the command: ng serve
