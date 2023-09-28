@@ -6,7 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./routine-detail.component.css']
 })
 export class RoutineDetailComponent implements OnInit {
-  text :string = "Que buena rutina!!! Gracias por publicar..."
+  text:string = "Que buena rutina!!! Gracias por publicar..."
+  text_edit: string = "Rutina creada para el fortalecimiento de los musculos de los extremos inferiores"
+
   constructor() {
 
    }

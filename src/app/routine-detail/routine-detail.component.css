@@ -94,6 +94,26 @@ td {
   border-left: 1px solid #72dcf07d;
 }
 
-.fondo-msg{
+.color-header-modal{
+  background-color: #111010 !important;
+  border-color: #72dcf0;
+}
 
+.color-footer-modal{
+  background-color: #29282b !important;
+  border-color: #72dcf0;
+}
+
+.color-text-header{
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 19.2px;
+  word-wrap: break-word;
+  padding-top: 6px;
+  padding-left: 4px;
+}
+
+.fondo-body-modal{
+  background-color: #29282b;
 }
