@@ -1,0 +1,43 @@
+/* .color-fondo{
+  /* background-image: linear-gradient(to right bottom, #302e25, #404936, #446753, #3d867d, #31a4b4);
+  background-color: #000000c7;
+} */
+
+.fondo{
+  height: 90.9vh;
+  width: 100vw;
+}
+
+.color-elementos{
+  background-color: #00bee2;
+}
+
+.color-fondo{
+background-image: linear-gradient(
+  to bottom,
+  #000000de,
+  #00bee200
+), url(../assets/img/imagen_fondo_4.png) !important;
+
+/* Valores globales */
+background-image: inherit;
+background-image: initial;
+background-image: revert;
+background-image: revert-layer;
+background-image: unset;
+background-size: cover;
+}
+
+.color-letra{
+  color: white;
+}
+
+.logo{
+color: #72DCF0;
+ font-size: 34px;
+ font-family: Roboto;
+ font-style: italic;
+ font-weight: 700;
+ line-height: 24px;
+ word-wrap: break-word;
+}

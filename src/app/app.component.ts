@@ -11,11 +11,7 @@ export class AppComponent implements OnInit {
   title = 'focus-fit';
 
   ngOnInit(){
-    $(document).ready(function(){
-      $("#button-open").on('click', function(){
-        alert('Hi')
-      })
-    })
+
   }
 
 }

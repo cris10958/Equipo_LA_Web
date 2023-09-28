@@ -1,0 +1,152 @@
+.color-brand {
+  color: #72dcf0;
+  font-size: 34px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 24px;
+  word-wrap: break-word;
+}
+
+.fondo-tabla {
+  color: #f4f3f1;
+  font-size: 40px;
+  font-family: Roboto;
+  font-weight: 800;
+  line-height: 50px;
+  word-wrap: break-word;
+}
+
+.boton-crear {
+  color: white;
+  font-size: 20px;
+  font-family: Roboto;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.letra-titulos {
+  color: #f4f3f1;
+  font-size: 24px;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 19.2px;
+  word-wrap: break-word;
+}
+
+td {
+  /* background-color: #72dcf0; */
+  border-radius: 4px;
+}
+
+th {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+.table-color {
+  border-radius: 5px;
+  background-color: #72dcf0 !important;
+}
+
+.shadow-tabla {
+  box-shadow: 6px 6px 18px 0px rgb(78 170 176);
+}
+
+.sin-color {
+  background-color: transparent;
+}
+
+.titulos-tabla {
+  color: #f4f3f1;
+  font-size: 15px;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 19.2px;
+  word-wrap: break-word;
+}
+
+span{
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 19.2px;
+  word-wrap: break-word;
+}
+
+.boto-crear{
+  background-color: #111010 !important;
+  border: 1px solid #72dcf0 !important;
+}
+
+.boton-cancelar{
+  background-color: #29282b !important;
+  border: 1px solid #72dcf0 !important;
+}
+
+.boto-crear:hover, .boto-crear:focus, .boton-cancelar:hover, .boton-cancelar:focus{
+  background-color: #72dcf0 !important;
+}
+
+.color-header-modal{
+  background-color: #111010 !important;
+  border-color: #72dcf0;
+}
+
+.color-footer-modal{
+  background-color: #29282b !important;
+  border-color: #72dcf0;
+}
+
+.color-text-header{
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 19.2px;
+  word-wrap: break-word;
+  padding-top: 6px;
+  padding-left: 4px;
+}
+
+.color-blanco{
+  color: white;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 19.2px;
+  word-wrap: break-word;
+  padding-top: 6px;
+  padding-left: 4px;
+}
+
+.fondo-body-modal{
+  background-color: #29282b;
+}
+
+input{
+  border: 2px solid  #72dcf0;
+  padding: 5px;
+  background-color: #f4f3f1 !important;
+}
+
+textarea{
+  border: 2px solid  #72dcf0;
+  background-color: #f4f3f1 !important;
+}
+
+.texto-mini{
+  color: #72dcf0;
+  /* color: #f4f3f1; */
+  font-size: 13px;
+  font-family: Roboto;
+  font-weight: 300;
+  line-height: 19.2px;
+  word-wrap: break-word;
+  padding-top: 6px;
+  padding-left: 4px;
+}
+
+.boton-mini{
+  width: 2.2rem;
+}
+
