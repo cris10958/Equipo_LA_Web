@@ -6,6 +6,8 @@
     <div class="col-2 text-end">
       <a
         class="btn btn-primary boto-crear"
+        data-bs-toggle="modal"
+        href="#mod-create"
         role="button"
         >Crear rutina</a
       >
@@ -163,6 +165,268 @@
           </tr>
         </tbody>
       </table>
+    </div>
+  </div>
+
+  <div class="modal fade" id="mod-create" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header color-header-modal justify-content-center p-1">
+          <h1 class="modal-title color-text-header">Crear rutina</h1>
+        </div>
+        <div class="modal-body fondo-body-modal">
+          <div class="row">
+            <div class="col-12">
+              <h3 class="color-blanco">Nombre</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <input type="text" class="w-100 form-control" />
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <label class="texto-mini">Ingrese el nombre de la rutina</label>
+            </div>
+          </div>
+          <div class="row pt-4">
+            <div class="col-12">
+              <h3 class="color-blanco">Descripción</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <textarea
+                name="desc"
+                class="w-100 form-control"
+                cols="30"
+                rows="3"
+              ></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <label class="texto-mini"
+                >Ingrese la descripción de la rutina</label
+              >
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-12">
+              <h1 class="color-blanco">Series</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6">
+              <div class="row justify-content-center pt-2 ps-5 ms-5">
+                <div class="row">
+                  <div class="col-12 text-start">
+                    <label class="color-blanco">Cantidad</label>
+                  </div>
+                </div>
+                <div class="row pt-2">
+                  <div class="col-4">
+                    <input
+                      type="number"
+                      min="0"
+                      max="99"
+                      class="w-100 form-control"
+                    />
+                  </div>
+                  <div class="col-2 p-0 text-center">
+                    <a
+                      class="btn btn-primary boto-crear boton-mini"
+                      role="button"
+                      >+</a
+                    >
+                  </div>
+                  <div class="col-2 p-0 text-start">
+                    <a
+                      class="btn btn-primary boto-crear boton-mini"
+                      role="button"
+                      >-</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <div class="col-12 text-start">
+                  <label class="color-blanco">Tiempo</label>
+                </div>
+              </div>
+              <div class="row pt-2">
+                <div class="col-5">
+                  <div class="row">
+                    <div class="col-6">
+                      <input
+                        type="number"
+                        min="0"
+                        max="59"
+                        class="w-100 form-control"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <input
+                        type="number"
+                        min="0"
+                        max="59"
+                        class="w-100 form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <label class="texto-mini">Minutos</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1">
+                  <label>:</label>
+                </div>
+                <div class="col-5">
+                  <div class="row">
+                    <div class="col-6">
+                      <input
+                        type="number"
+                        min="0"
+                        max="59"
+                        class="w-100 form-control"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <input
+                        type="number"
+                        min="0"
+                        max="59"
+                        class="w-100 form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <label class="texto-mini">Segundos</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row pt-5">
+            <div class="col-6">
+              <div class="row justify-content-center pt-2 ps-5 ms-5">
+                <div class="row">
+                  <div class="col-12 text-start">
+                    <label class="color-blanco">No. Descansos</label>
+                  </div>
+                </div>
+                <div class="row pt-2">
+                  <div class="col-4">
+                    <input
+                      type="number"
+                      min="0"
+                      max="99"
+                      class="w-100 form-control"
+                    />
+                  </div>
+                  <div class="col-2 p-0 text-center">
+                    <a
+                      class="btn btn-primary boto-crear boton-mini"
+                      role="button"
+                      >+</a
+                    >
+                  </div>
+                  <div class="col-2 p-0 text-start">
+                    <a
+                      class="btn btn-primary boto-crear boton-mini"
+                      role="button"
+                      >-</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="row">
+                <div class="col-12 text-start">
+                  <label class="color-blanco">Tiempo de descanso</label>
+                </div>
+              </div>
+              <div class="row pt-2">
+                <div class="col-5">
+                  <div class="row">
+                    <div class="col-6">
+                      <input
+                        type="number"
+                        min="0"
+                        max="59"
+                        class="w-100 form-control"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <input
+                        type="number"
+                        min="0"
+                        max="59"
+                        class="w-100 form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <label class="texto-mini">Minutos</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-1">
+                  <label>:</label>
+                </div>
+                <div class="col-5">
+                  <div class="row">
+                    <div class="col-6">
+                      <input
+                        type="number"
+                        min="0"
+                        max="59"
+                        class="w-100 form-control"
+                      />
+                    </div>
+                    <div class="col-6">
+                      <input
+                        type="number"
+                        min="0"
+                        max="59"
+                        class="w-100 form-control"
+                      />
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-12 text-center">
+                      <label class="texto-mini">Segundos</label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer color-footer-modal">
+          <a
+            class="btn btn-primary boton-cancelar"
+            data-bs-dismiss="modal"
+            role="button"
+            >Cancelar</a
+          >
+          <a
+            data-bs-dismiss="modal"
+            class="btn btn-primary boto-crear"
+            role="button"
+            >Crear</a
+          >
+        </div>
+      </div>
     </div>
   </div>
 </div>
