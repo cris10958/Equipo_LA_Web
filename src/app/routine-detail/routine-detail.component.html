@@ -29,6 +29,9 @@
               src="../../assets/img/eliminar.png"
               alt="Eliminar"
               class="img-min"
+              data-bs-toggle="modal"
+              href="#mod-del"
+              role="button"
             />
           </div>
         </div>
@@ -663,6 +666,38 @@
             class="btn btn-primary boto-crear"
             role="button"
             >Actualizar</a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="mod-del" aria-hidden="true" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header color-header-modal justify-content-center p-1">
+          <h1 class="modal-title color-text-header">Eliminar rutina</h1>
+        </div>
+        <div class="modal-body fondo-body-modal">
+          <div class="row pt-4 pb-4">
+            <div class="col-12">
+              <label class="color-blanco">¿Esta seguro que desea eliminar la rutina?</label>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer color-footer-modal">
+          <a
+            class="btn btn-primary boton-cancelar"
+            data-bs-dismiss="modal"
+            role="button"
+            >Cancelar</a
+          >
+          <a
+            data-bs-dismiss="modal"
+            class="btn btn-primary boto-crear"
+            role="button"
+            routerLink=""
+            >Eliminar</a
           >
         </div>
       </div>
